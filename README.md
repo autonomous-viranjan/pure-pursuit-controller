@@ -5,7 +5,9 @@
   ![alt text](https://github.com/autonomous-viranjan/pure-pursuit-controller/blob/main/pure_pursuit_controller.jpg)
 
 - Tuning parameters:
--   Speed dependent lookahead $`ld`$ params $`K_d`$, $`ld_min`$, $`ld_max`$
--   Vehicle wheelbase `L`
-- Example abstract simulation
+-   Speed dependent lookahead $`ld`$ params $`K_d`$, $`ld_{min}`$, $`ld_{max}`$
+-   Vehicle wheelbase $`L`$
+-   Target increment param $`\epsilon`$
+
+- Example run
   ![alt text](https://github.com/autonomous-viranjan/pure-pursuit-controller/blob/main/example.png)
