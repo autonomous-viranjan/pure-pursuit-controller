@@ -5,7 +5,7 @@ function [target_point, ld] = setTarget(path, ego_state)
 
 v_e = ego_state.v;
 % speed dependent lookahead
-Kd = 1;
+Kd = 0.8;
 ld_min = 1;
 ld_max = 8;
 ld = Kd*v_e;
