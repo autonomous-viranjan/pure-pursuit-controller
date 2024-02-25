@@ -5,7 +5,7 @@ function delta = purePursuitController(target_point, ego_states, ld)
 % Input: target point (struct), ego states x,y,v (struct), lookahead
 % Output: bicycle model steering angle
 
-L = 5; % Kinematic Bicycle param - wheelbase [m]
+L = 4; % Kinematic Bicycle param - wheelbase [m]
 
 x_t = target_point.x;
 y_t = target_point.y;
