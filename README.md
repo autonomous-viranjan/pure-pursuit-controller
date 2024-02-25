@@ -10,5 +10,3 @@
     - Target increment param $`\epsilon`$
 
 - Example run (constant longitudinal acceleration of $1 m/s^2$)
-
-  ![alt text](https://github.com/autonomous-viranjan/pure-pursuit-controller/blob/main/example.png)
